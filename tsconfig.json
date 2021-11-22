@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    // output options
+    "noEmitOnError": true,  // do not create .js files in case of ts errors
+    "module": "commonjs",
+    "target": "es2021",
+    "moduleResolution": "node",
+    "sourceMap": true,  // generate .map files
+    "outDir": "dist",
+    // input options
+    "baseUrl": ".",
+    "paths": {
+      "*": ["node_modules/*", "src/types/*"]
+    },
+  },
+  "include": ["src/**/*"]
+}
